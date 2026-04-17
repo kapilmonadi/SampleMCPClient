@@ -1,4 +1,4 @@
-package com.kapil.ai.mcp.client.sample;
+package com.kapil.ai.mcp.client;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
