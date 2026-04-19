@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /sample-mcp-client
+  port: 5050
+spring:
+  application:
+    name: SampleMCPClient
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+    mcp:
+      client:
+        stdio:
+          servers-configuration: classpath:mcp-config/mcp-servers.json
+
